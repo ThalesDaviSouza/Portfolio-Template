@@ -1,0 +1,102 @@
+main{
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .main-content{
+    display: flex;
+    flex-direction: column;
+}
+
+/* About me */
+
+main .main-content .text{
+    margin-bottom: 5%;
+}
+
+main .main-content h2{
+    margin-bottom: 2%;
+    font-size: 2.26em;
+    font-weight: 200;
+    color: #e0e0e0;
+}
+
+main .main-content p{
+    width: 53%;
+    padding-left: 2%;
+    font-size: 1.2em;
+}
+
+/* Techs */
+.main-content .techs {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+}
+
+.main-content .techs h2 {
+    margin-bottom: 2%;
+    font-size: 2.26em;
+    font-weight: 200;
+    color: #e0e0e0;
+}
+
+.main-content .techs .cards-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-content .techs .cards-container .card {
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    margin-right: 1.8em;
+    cursor: pointer;
+
+    background-color: #b6b6b7;
+    border: black solid 3.5px;
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content .techs .cards-container .card img {
+    width: 60%;
+}
+
+.main-content .techs .cards-container .card .little {
+    width: 80%;
+}
+
+.main-content .techs .cards-container .card:hover {
+    background-color: #dadadb;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0px 0px 16px #e0e0e0;
+}
+
+/* Figure */
+main figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main figure img{
+    width: 400px;
+    height: 400px;
+    border-radius: 200px;
+
+    margin-bottom: 6%;
+    cursor: pointer;
+    border: 2px solid #b6b6b7;
+}
+
+main figure img:hover{
+    transition: 0.2s ease-in-out;
+    box-shadow: 0px 0px 8px #e0e0e0;
+}
