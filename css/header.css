@@ -11,7 +11,7 @@ header{
 header h1{
     font-size: 2.8em;
     font-weight: 200;
-    cursor: default;
+    cursor: pointer;
 }
 
 header nav{
@@ -25,6 +25,7 @@ header nav a{
     margin: 0px 2.6vh;
 }
 
-header a:hover{
+header h1:hover, a:hover{
     color: #ffff;
+    transition: 0.26s ease-in-out;
 }

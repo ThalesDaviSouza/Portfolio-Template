@@ -1,0 +1,12 @@
+footer{
+    padding: 3.42vh 3.56rem;
+    display: flex;
+    justify-content: right;
+
+    background-color: #1b1b1b;
+}
+
+footer span{
+    font-size: 1.23em;
+    color: #dadadb;
+}
